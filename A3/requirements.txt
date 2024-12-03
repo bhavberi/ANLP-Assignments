@@ -1,0 +1,6 @@
+peft
+rouge-score
+torch
+torchinfo
+transformers
+tqdm
