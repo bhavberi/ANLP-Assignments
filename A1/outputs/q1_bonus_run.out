@@ -1,0 +1,15 @@
+Using cuda
+Number of sentences:  35415
+Number of words:  941819
+Number of unique words:  26128
+Most common words:  [('the', 56795), ('to', 26839), ('of', 25600), ('and', 24759), ('a', 18892)]
+26129
+Ignored 2517 sentences due to length
+Number of samples: 539401
+Ignored 751 sentences due to length
+Number of samples: 157155
+Ignored 376 sentences due to length
+Number of samples: 74696
+[{'hidden_dim': 300, 'train_perplexity': 193.2349919646906, 'val_perplexity': 394.1681275038839, 'test_perplexity': 402.88105145702735}, {'hidden_dim': 600, 'train_perplexity': 187.41871952049215, 'val_perplexity': 411.69730908937214, 'test_perplexity': 421.14196977594173}, {'hidden_dim': 1200, 'train_perplexity': 185.43435950748852, 'val_perplexity': 410.10070798956724, 'test_perplexity': 419.0763189496041}]
+[{'dropout': 0.2, 'train_perplexity': 137.18518189486343, 'val_perplexity': 471.7200042068911, 'test_perplexity': 494.47556304484465}, {'dropout': 0.4, 'train_perplexity': 185.42609045742606, 'val_perplexity': 400.2443035006508, 'test_perplexity': 409.05818031693724}, {'dropout': 0.6, 'train_perplexity': 249.21001145619246, 'val_perplexity': 416.14546685231267, 'test_perplexity': 423.17144528440167}]
+[{'optimiser': <class 'torch.optim.adam.Adam'>, 'train_perplexity': 187.96486475686092, 'val_perplexity': 406.04136505113905, 'test_perplexity': 419.0178772008235}, {'optimiser': <class 'torch.optim.sgd.SGD'>, 'train_perplexity': 696.5766077662701, 'val_perplexity': 700.071445266396, 'test_perplexity': 701.1974284033465}]

@@ -1,0 +1,45 @@
+Using cuda
+Number of sentences:  35415
+Number of words:  941819
+Number of unique words:  26128
+Most common words:  [('the', 56795), ('to', 26839), ('of', 25600), ('and', 24759), ('a', 18892)]
+26130
+Number of samples: 24790
+Length of train_loader:  388
+Number of samples: 7083
+Length of val_loader:  111
+Number of samples: 3542
+Length of test_loader:  56
+Epoch: 1, Train loss: 6.518959200259337
+Epoch: 1, Val loss: 6.0075553387135 Perplexity: 406.4883782196062
+Model saved at Epoch:  1
+Epoch: 2, Train loss: 5.814421076135537
+Epoch: 2, Val loss: 5.681329783018644 Perplexity: 293.33924822922165
+Model saved at Epoch:  2
+Epoch: 3, Train loss: 5.554650798286359
+Epoch: 3, Val loss: 5.53394772125794 Perplexity: 253.14127225791256
+Model saved at Epoch:  3
+Epoch: 4, Train loss: 5.389877688024462
+Epoch: 4, Val loss: 5.440271472071742 Perplexity: 230.50475056982998
+Model saved at Epoch:  4
+Epoch: 5, Train loss: 5.251536387758157
+Epoch: 5, Val loss: 5.377924553982846 Perplexity: 216.57232449372995
+Model saved at Epoch:  5
+Epoch: 6, Train loss: 5.133769599432798
+Epoch: 6, Val loss: 5.33643593229689 Perplexity: 207.77087962528543
+Model saved at Epoch:  6
+Epoch: 7, Train loss: 5.026353026173778
+Epoch: 7, Val loss: 5.299159127312738 Perplexity: 200.16842302894418
+Model saved at Epoch:  7
+Epoch: 8, Train loss: 4.926586903247637
+Epoch: 8, Val loss: 5.283902490461195 Perplexity: 197.1377041650684
+Model saved at Epoch:  8
+Epoch: 9, Train loss: 4.831588866784401
+Epoch: 9, Val loss: 5.276666546727086 Perplexity: 195.71637535908604
+Model saved at Epoch:  9
+Epoch: 10, Train loss: 4.7427871288712495
+Epoch: 10, Val loss: 5.278925917170069 Perplexity: 196.15907107126264
+Test loss: 5.293239516871316, Test Perplexity: 198.98700416158772
+Overall Perplexity: 104.4500672383349
+Overall Perplexity: 207.9000903323066
+Overall Perplexity: 201.9537698778273
